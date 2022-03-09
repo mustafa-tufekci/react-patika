@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    padding:  5px;
+    margin: 8px;
+}
+
+ul {
+    list-style-type: none;
+} 
+
+ul ,li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list li {
+    background-color: yellow;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
